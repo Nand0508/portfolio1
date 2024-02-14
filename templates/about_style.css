@@ -1,0 +1,70 @@
+body {
+    border: 10px solid orange;
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Geneva, Tahoma, sans-serif;
+    
+  }
+  .container{
+    
+      height: 740px;
+      width: 1200px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .container2{
+      height: 400px;
+      width: 600px;
+      
+      padding: 10px;
+      margin-left:120px ;  
+      flex: 2;
+      
+      
+  }
+  .para_intro{
+      text-align: justify;
+      font: 1em sans-serif;
+  }
+  button{
+      background-color: #ffc470;
+      width: 100px;
+      height: 40px;
+      padding: auto;
+      margin: 10px;
+      border-radius: 50px;
+      border: none;
+     
+  }
+  .button_container{
+      display: flex;
+      
+  }
+  h2{
+      font-size: 36px;
+      font-weight: bold;
+      color: orange;
+      background-color: blanchedalmond;
+  }
+  p{
+      font-size: 18px;
+      color: grey;
+  }
+  .span_info{
+      font-size: 24px;
+      font-weight: 10px;
+      color: black;
+  
+  }
+  .span_text{
+      font-size: 18px;
+      color: grey;
+  }
+  img{
+     
+      border-radius: 50%;
+      box-shadow: 10px 0px 10px 0px orange;    
+      flex: 1;
+  }
